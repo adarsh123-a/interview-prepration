@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            padding: 20px;
+            background: #f6f8fa;
+        }
+    
+        h2 {
+            margin-top: 32px;
+        }
+    
+        button {
+            margin: 4px;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+    
+        .box {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+            margin-bottom: 16px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>
+        Hoisting Test
+    </h1>
+    <div class="box">
+    <button id="click" > click me</button>
+    <div id="container"></div>
+    </div>
+
+    <h2>Part 2: Closure Loop</h2>
+    <div class="box">
+        <strong>Buggy (var):</strong>
+        <div id="buggy-buttons"></div>
+    
+        <strong>Fixed (Closure):</strong>
+        <div id="fix-buttons"></div>
+    </div>
+
+    <h1> Part 3: Private Counter</h1>
+    <div class="box">
+        <button id="increment">Increment</button>
+        <button id="decrement">Decrement</button>
+        <div id="count-value">0</div>
+    </div>
+
+    <h1>fix block scope</h1>
+    <div class="box">
+        <button id="block-scope-btn">Show Block Scope</button>
+        <button id="timerBtn">Execution Timer</button>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
