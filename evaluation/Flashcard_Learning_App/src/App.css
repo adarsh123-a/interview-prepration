@@ -1,0 +1,42 @@
+.flashcard{
+  width: 400px;
+  height: 200px;
+  background-color: rgb(173, 173, 209);
+  color: rgb(43, 41, 39);
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #0077ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.studyTime{
+  display: flex;
+  justify-content: center;
+}
+.flashcard.front{
+  background-color: aliceblue;
+}
+.flashcard.back{
+  background-color: aqua;
+  transform: rotate(180deg);
+}
+.flashcard.flip{
+  transform: rotate(180deg);
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  padding: 20px 30px;
+  margin: 0px 10px;
+
+}
+p{
+  text-align: center;
+}
