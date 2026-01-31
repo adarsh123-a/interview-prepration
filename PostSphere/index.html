@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input id="searchInput" type="text" placeholder="search posts" />
+      <div>
+        <select id="searchMode">
+          <option value="full">Full Text</option>
+          <option value="title">Title Only</option>
+          <option value="fuzzy">Fuzzy</option>
+        </select>
+      </div>
+    </div>
+    <button>Search</button>
+
+    <div id="app">
+      <div id="container"></div>
+      <div id="feed"></div>\
+      <div id="pagination"></div>
+    </div>
+
+    <script src="clint.js"></script>
+  </body>
+</html>
